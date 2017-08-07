@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://index.html/index.html</loc>
-    <lastmod>2017-07-20</lastmod>
+    <lastmod>2017-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://index.html/lich-thang.html</loc>
-    <lastmod>2017-07-20</lastmod>
+    <loc>http://index.html/l%E1%BB%8Bch-th%C3%A1ng.html</loc>
+    <lastmod>2017-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://index.html/chi-ti%E1%BA%BFt-ng%C3%A0y.html</loc>
+    <lastmod>2017-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://index.html/404.html</loc>
+    <lastmod>2017-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
