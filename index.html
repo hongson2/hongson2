@@ -18,10 +18,28 @@ function loadData() {
   xmlhttp.open("GET",url,true);
   xmlhttp.send(null);
 }
+function a() {
+    var node = document.createElement("LI");
+    var textnode = document.createTextNode(document.getElementById("p1").value);
+	
+    node.appendChild(textnode);
+    document.getElementById("p1n").appendChild(node);
+    var node = document.createElement("LI2");
+    var textnode = document.createTextNode(document.getElementById("p2").value);
+	
+    node.appendChild(textnode);
+    document.getElementById("p2n").appendChild(node);
+}
         </script>
      </head>
     <body>
-	<img src="/docs/test.jpg"  ></img>
+<img src="/docs/test.jpg"  ></img><br />
+test<input type="text" value="fool" id="p1"><br />
+test<input type="text" value="rfool" id="p2">
+<input type="button" value="submit" onClick="a()">
+<ul id="p1n"></ul>
+<ul id="p2n"></ul>
+
 	<h1> test </h1>
         <p id="display"></p>
 		<button type="button" onclick="loadData()">Load Spreadsheet Data</button>
